@@ -3,3 +3,5 @@
 ## 📚 libs
 - typescript
 - jest
+- chalk
+- prompt-sync
