@@ -2,17 +2,26 @@
   "name": "Jing-Dii",
   "version": "0.1.0",
   "description": "It That MVC 😮",
-  "main": "index.js",
+  "main": "app/index.js",
   "author": "Jungai",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start": "node app/index.js"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.7",
+    "@types/prompt-sync": "^4.1.0",
     "jest": "^24.7.1",
     "ts-jest": "^24.0.2",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^2.4.2",
+    "prompt-sync": "^4.1.6"
   }
 }
